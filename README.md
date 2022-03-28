@@ -57,10 +57,8 @@ Using the credit card credit dataset from Lending Club, a peer-to-peer lending s
 
 ## **Summary** 
 
-* There is a summary of the results 
-
-- The random and smoten oversampling model have about same score and the precision for the high_risk is low. The undersampling model’s score is lower than both random and smote oversampling. The smoteen model has slightly higher score than all the three and slightly improved the recall of the high_risk. The Balanced Random Forest Classifier model has higher score (78%) than four previous models and improved the sensitivity of low_risk whcih means lower false positives. The Easy Ensemble Classifier model has highest accuracy score at 93%. The recall for low_risk( is 94%) is high which means low false positive. The model also improved recall for high_risk to 92 which means low false negative.
+* The random and smoten oversampling model have about same score and the precision for the high_risk is low. The undersampling modelâ€™s score is lower than both random and smote oversampling. The smoteen model has slightly higher score than all the three and slightly improved the recall of the high_risk. The Balanced Random Forest Classifier model has higher score (78%) than four previous models and improved the sensitivity of low_risk whcih means lower false positives. The Easy Ensemble Classifier model has highest accuracy score at 93%. The recall for low_risk( is 94%) is high which means low false positive. The model also improved recall for high_risk to 92 which means low false negative.
 
 * There is a recommendation on which model to use, or there is no recommendation with a justification
 
-- I recommend the Easy Ensemble Classifier model to predict credit risk since it has the highest accuracy score. With this model the recall for the high_risk is high at 92% while precision is 9%. It will predict most high_risk numbers. The company has to pay attention though as there are few actual low_risk that will be predicted as high_risk. If they are ok with this low numbers as been flagged as high_risk, they can use this model.
+  -   I recommend the Easy Ensemble Classifier model to predict credit risk since it has the highest accuracy score. With this model the recall for the high_risk is high at 92% while precision is 9%. It will predict most high_risk numbers. The company has to pay attention though as there are few actual low_risk that will be predicted as high_risk. If they are ok with this low numbers as been flagged as high_risk, they can use this model.
